@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Sweet Lemonade",
+        "price": 10.99, 
+        "imgUrl": "/img/sweet.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mojito Lemonade",
+        "price": 7.59, 
+        "imgUrl": "/img/mojito.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Citrus Lemonade",
+        "price": 8.99, 
+        "imgUrl": "/img/citrus.jpg"
+    }
+]
