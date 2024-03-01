@@ -1,4 +1,4 @@
-import { Router, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import { Container } from "react-bootstrap"
 
 //pages import
