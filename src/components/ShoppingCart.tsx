@@ -12,7 +12,7 @@ type ShoppingCartProps = {
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
     const { closeCart, cartItems } = useShoppingCart()
 
-    const [totalProfit, setTotalProfit] = useState(0);
+    const [,setTotalProfit] = useState(0);
 
     // Function to calculate total profit
     const calculateTotalProfit = () => {
