@@ -16,6 +16,7 @@ export function Navbar() {
                     <Nav.Link to="/home" as={NavLink}>Hjem</Nav.Link>
                     <Nav.Link to="/store" as={NavLink}>Butik</Nav.Link>
                     <Nav.Link to="/about" as={NavLink}>Om os</Nav.Link>
+                    <Nav.Link to="/dashboard" as={NavLink}>Admin</Nav.Link>
                 </Nav>
 
                 {/* Button to open the shopping cart */}

@@ -9,6 +9,8 @@ import { About } from "./pages/About"
 // components import
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/shoppingCartContext"
+import { Dashboard } from "./pages/Dashboard"
+
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Container>
     </ShoppingCartProvider>
