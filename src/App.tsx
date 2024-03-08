@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, Navigate } from "react-router-dom"
 import { Container } from "react-bootstrap"
 
 //pages import
@@ -18,6 +18,7 @@ function App() {
     <Navbar />
     <Container className="">
       <Routes>
+        <Route path="/" element={<Navigate to="/store" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />

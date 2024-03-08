@@ -1,4 +1,4 @@
-import { Offcanvas, Stack } from "react-bootstrap";
+import { Offcanvas, Stack, Button } from "react-bootstrap";
 import { useShoppingCart } from "../context/shoppingCartContext";
 import { CartItem } from "./CartItem";
 import { formatCurrency } from "../utilities/formatCurrency";
@@ -27,6 +27,9 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
                         }, 0)
                     )}  
                     </div>
+                    <Button className="ms-auto fw-bold fs-6">
+                        Køb
+                    </Button>
                 </Stack>
             </Offcanvas.Body>
         </Offcanvas>
